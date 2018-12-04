@@ -1,0 +1,57 @@
+body {
+  font-family: "Helvetica";
+  background-color: #f2f2f2
+}
+
+.btn {
+    background-color: #acf4f5;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 20px 20px 20px;
+    font-size: 25px;
+    border-radius: 20px;
+    position: relative;
+    bottom: 8em;
+    left: 2em;
+}
+
+.btn:hover {
+  background-color: #2D292A;
+}
+
+.fa-facebook:hover, .fa-insta:hover {
+  opacity: 0.7;
+}
+
+footer {
+  background-color: #ACF4F5;
+}
+
+.oxford {
+  position: absolute;
+  bottom: 12em;
+  left: 1em;
+  color: white;
+}
+
+.chance {
+  position: absolute;
+  bottom: 8em;
+  left: 0.8em;
+  color: white;
+  font-size: 30pt;
+}
+
+.mental-health {
+  color: white;
+  position: absolute;
+  bottom: 12em;
+  left: 1.5em;
+  font-size: 18pt;
+}
+
+.dog {
+  position: relative;
+}
