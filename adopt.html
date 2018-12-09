@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-
+  <main>
+    <section>
   <h1>Oxford Animal Adoption</h1>
   <h2>Bring home your new family member today!</h2>
   <img class="doug-banner" src="images/doug.jpg" alt"" width="100%">
@@ -29,8 +30,11 @@
     <a href="adopt.html"><button class="btn btn-form">Adopt Tucker!</button></a>
   </div>
 <div class="adoption-form">
-
 </form>
+</section>
+</main>
+
+<!-- PERSONAL INFO -->
   <h1 class="pet-adoption">Pet Adoption Form</h1>
   <h2>Personal Information</h2>
   <form action="/action_page.php">
@@ -49,7 +53,7 @@
   E–mail: <br>
   <input type="text">
   <br>
-
+<!-- COMPANY DETAILS -->
   <h2>Company Details</h2>
   <form action="/action_page.php">
   Company Name:<br>
@@ -64,28 +68,28 @@
   Year at Company: <br>
   <input type="text" phone="years">
   <br>
-
+<!-- PAYMENT-CARDS -->
   <img clas="card-icon" src="images/cardicon.png" alt="">
   <h2>Payment Information</h2>
 
   <div class="container">
   <img class="pink-card" src="images/pinkcard.png" alt="">
   <div class="middle">
-    <div class="text-debit">Debit</div>
+    <a class="pink-debit" href="adopt.html"><div class="text-debit">Debit</div></a>
   </div>
 </div>
 
 <div class="container">
 <img class="green-card" src="images/greencard.png" alt="">
 <div class="middle">
-  <div class="text-debit">MasterCard</div>
+  <a class="green-debit" href="adopt.html"><div class="text-debit">MasterCard</div></a>
 </div>
 </div>
 
 <div class="container">
 <img class="green-card" src="images/bluecard.png" alt="">
 <div class="middle">
-  <div class="text-debit">Visa</div>
+  <a class="blue-debit" href="adopt.html"><div class="text-debit">Visa</div></a>
 </div>
 </div>
   <br>
@@ -99,8 +103,6 @@
   <input type="submit" value="Submit">
   </form>
 </div>
-
-
 
 </body>
 </html>
