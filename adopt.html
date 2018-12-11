@@ -11,99 +11,128 @@
 </head>
 <body>
   <main>
-      <nav>
-  <h1>Oxford Animal Adoption</h1>
-  <h2>Bring home your new family member today!</h2>
-  <img class="doug-banner" src="images/doug.jpg" alt="">
-</nav>
 
-<section>
-  <div class="card-adopt island-1-2">
-    <a class="adopt" href="adopt.html"><h3 class="adopt-page">Tallie</h3></a>
-    <p class="adopt-text island-1-4 milli">Tallie is one of our most lovable Family members. She's very aware of her surroundings and ensures proper therapy for clients who are in distress. She loves to be brushed and to snuggle up with whoever she encounters. She is a quiet cat but loves to play!</p>
-    <img class="adopt-animal" src="images/tallie.jpg" alt="">
-    <a href="adopt.html">Adopt Tallie!</a>
-  </div>
+    <ul class="skip-links hidden">
+      <li><a href="#nav">Jump to the navigation</a></li>
+      <li><a href="#main">Jump to the main content</a></li>
+    </ul>
 
-  <div class="card-adopt island-1-2">
-    <a class="adopt" href="adopt.html"><h3 class="adopt-page">Tucker</h3></a>
-    <p class="adopt-text island-1-4 milli">Tucker is the biggest sweetheart and he is amazing with children! He loves to eat peanutbutter off of his toys and eats his vegetables. Tucker was a very sensitive dog and </p>
-    <img class="adopt-animal" src="images/tucker.jpg" alt="">
-    <a href="adopt.html">Adopt Tucker!</a>
-  </div>
-<div class="adoption-form">
-</div>
-</section>
-</main>
+    <img class="paw" id="favicon" src="images/favicon.png" alt="">
 
-<!-- PERSONAL INFO -->
+    <nav>
+      <h1>Oxford Animal Adoption</h1>
+      <h2>Bring home your new family member today!</h2>
+      <img class="doug-banner" src="images/doug.jpg" alt="">
+    </nav>
+
+    <header class="grid grid-middle text-center pad-t pad-b-1-4 push-0">
+      <div class="title inline unit xs-1 s-1 m-1 l-1-4 push">
+        <h1 class="bold nina push-0">Rescues</h1>
+      </div>
+      <div class="unit xs-1 xs-1 m-1 l-3-4 push-1-2">
+        <nav role="navigation" id="nav" tabindex="0" class="mega">
+          <ul class="list list-group list-group-inline push-0">
+            <li><a class="gutter-1-2" href="index.html">Home</a></li>
+            <li><a class="gutter-1-2 current" href="rescues.html">Rescues</a></li>
+            <li><a class="gutter-1-2" href=#donate>Donate</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <div class="card-adopt island-1-2">
+        <a class="adopt" href="adopt.html"><h3 class="adopt-page">Tallie</h3></a>
+        <p class="adopt-text island-1-4 milli">Tallie is one of our most lovable Family members. She's very aware of her surroundings and ensures proper therapy for clients who are in distress. She loves to be brushed and to snuggle up with whoever she encounters. She is a quiet cat but loves to play!</p>
+        <img class="adopt-animal" src="images/tallie.jpg" alt="">
+        <a class="adopt-tallie" href="adopt.html">Adopt Tallie!</a>
+      </div>
+
+      <div class="card-adopt island-1-2">
+        <a class="adopt" href="adopt.html"><h3 class="adopt-page">Tucker</h3></a>
+        <p class="adopt-text island-1-4 milli">Tucker is the biggest sweetheart and he is amazing with children! He loves to eat peanutbutter off of his toys and eats his vegetables. Tucker was a very sensitive dog and </p>
+        <img class="adopt-animal" src="images/tucker.jpg" alt="">
+        <a class="adopt-tucker" href="adopt.html">Adopt Tucker!</a>
+      </div>
+      <div class="adoption-form">
+      </div>
+    </section>
+  </main>
+
+  <!-- PERSONAL INFO -->
   <h1 class="pet-adoption">Pet Adoption Form</h1>
   <h2>Personal Information</h2>
   <form action="/action_page.php">
-  First Name:<br>
-  <input type="text" name="firstname">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <br>
-  Date of Birth: <br>
-  <input type="text" name="date">
-  <br>
-  Phone Number: <br>
-  <input type="text" name="number">
-  <br>
-  E–mail: <br>
-  <input type="text">
-  <br>
-<!-- COMPANY DETAILS -->
-  <h2>Company Details</h2>
-  <form action="/action_page.php">
-  Company Name:<br>
-  <input type="text" name="companyname">
-  <br>
-  Company Location:<br>
-  <input type="text" name="companylocation">
-  <br>
-  Company Phone Number: <br>
-  <input type="text" birth="companynumber">
-  <br>
-  Year at Company: <br>
-  <input type="text" phone="years">
-  <br>
-<!-- PAYMENT-CARDS -->
-  <img class="card-icon" src="images/cardicon.png" alt="">
-  <h2>Payment Information</h2>
+    First Name:<br>
+    <input type="text" name="firstname">
+    <br>
+    Last name:<br>
+    <input type="text" name="lastname">
+    <br>
+    Date of Birth: <br>
+    <input type="text" name="date">
+    <br>
+    Phone Number: <br>
+    <input type="text" name="number">
+    <br>
+    E–mail: <br>
+    <input type="text">
+    <br>
+    <!-- COMPANY DETAILS -->
+    <h2>Company Details</h2>
+    <form action="/action_page.php">
+      Company Name:<br>
+      <input type="text" name="companyname">
+      <br>
+      Company Location:<br>
+      <input type="text" name="companylocation">
+      <br>
+      Company Phone Number: <br>
+      <input type="text" birth="companynumber">
+      <br>
+      Year at Company: <br>
+      <input type="text" phone="years">
+      <br>
+      <!-- PAYMENT-CARDS -->
+      <img class="card-icon" src="images/cardicon.png" alt="">
+      <h2>Payment Information</h2>
 
-  <div class="container">
-  <img class="pink-card" src="images/pinkcard.png" alt="">
-  <div class="middle">
-    <a class="pink-debit" href="adopt.html"><div class="text-debit">Debit</div></a>
-  </div>
-</div>
+      <div class="container">
+        <img class="pink-card" src="images/pinkcard.png" alt="">
+        <div class="middle">
+          <a class="pink-debit" href="adopt.html"><div class="text-debit">Debit</div></a>
+        </div>
+      </div>
 
-<div class="container">
-<img class="green-card" src="images/greencard.png" alt="">
-<div class="middle">
-  <a class="green-debit" href="adopt.html"><div class="text-debit">MasterCard</div></a>
-</div>
-</div>
+      <div class="container">
+        <img class="green-card" src="images/greencard.png" alt="">
+        <div class="middle">
+          <a class="green-debit" href="adopt.html"><div class="text-debit">MasterCard</div></a>
+        </div>
+      </div>
 
-<div class="container">
-<img class="green-card" src="images/bluecard.png" alt="">
-<div class="middle">
-  <a class="blue-debit" href="adopt.html"><div class="text-debit">Visa</div></a>
-</div>
-</div>
-  <br>
+      <div class="container">
+        <img class="green-card" src="images/bluecard.png" alt="">
+        <div class="middle">
+          <a class="blue-debit" href="adopt.html"><div class="text-debit">Visa</div></a>
+        </div>
+      </div>
+      <br>
 
-  Expiry Date: <br>
-  <input type="text" birth="cardexpiry">
-  <br>
-  Security Code: <br>
-  <input type="text" phone="code">
-  <br>
-  <input type="submit" value="Submit">
-  </form>
+      Expiry Date: <br>
+      <input type="text" birth="cardexpiry">
+      <br>
+      Security Code: <br>
+      <input type="text" phone="code">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
 
-</body>
-</html>
+    <footer>
+      <p class="oxford-footer"><small>© 2018 Oxford Animal Rescue</small></p>
+      <a href="https://www.facebook.com/" class="fa-facebook"><img src="images/fb.svg" alt=""></a>
+      <btn btn-ghost><a href="https://www.instagram.com/" class="fa-insta"><img src="images/insta.svg" alt=""></a></btn>
+    </footer>
+
+  </body>
+  </html>

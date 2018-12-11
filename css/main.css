@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2 {
-  color: white;
+  color: black;
 }
 
 .zetta {
@@ -13,13 +13,9 @@ h1, h2 {
   text-decoration: none;
 }
 
-p {
-
-}
-
 .paw {
   position: relative;
-  top: 2.6em;
+  top: .5em;
   left: .2em;
   width: 10%;
   height: 10%;
@@ -36,8 +32,33 @@ li {
 
 }
 
-.btn:hover {
+a:hover {
   background-color: #2d292a;
+}
+
+.card-rescues {
+  border: 5px solid;
+  border-color: #1889a7;
+  padding: 10px;
+  box-shadow: -5px 10px #1889a7;
+  position: relative;
+  bottom: 40px;
+}
+
+.card-donate {
+  border: 5px solid;
+  border-color: #1889a7;
+  padding: 10px;
+  box-shadow: -5px 10px #1889a7;
+  position: relative;
+  bottom: 20px;
+}
+
+.card-adopt {
+  border: 5px solid;
+  border-color: #1889a7;
+  padding: 10px;
+  box-shadow: -5px 10px #1889a7;
 }
 
 .fa-facebook:hover, .fa-insta:hover {
@@ -50,9 +71,10 @@ li {
   bottom: 1.5em;
 }
 
-.subscribe {
+.content-subscribe {
   position: relative;
-  bottom: 1em;
+  top: 12px;
+  color: black;
 }
 
 .email {
@@ -100,6 +122,17 @@ li {
   position: relative;
   width: 100%;
   top: .3em;
+}
+
+.adopt-tallie, .adopt-tucker {
+  background-color: #1889a7;
+  border: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 11.5em;
+  bottom: 3em;
 }
 
 .rescues, .adopt {
