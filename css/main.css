@@ -1,281 +1,67 @@
 html {
-  font-family: "Helvetica", sans-serif;
+  font-family: Helvetica, sans-serif;
+}
 
+header, footer {
+  background-color: orange;
 }
 
 a {
-  color: orange;
-
-}
-
-a:hover, a:focus {
   color: white;
-}
-
-
-header {
-  position: relative;
-  width: 100%;
-  min-height: auto;
-  text-align: center;
-  background-image: url('../images/webbanner.jpg');
-  background-position: center;
-  background-size: cover;
-}
-
-header .header-content {
-  position: relative;
-  width: 100%;
-  padding: 100px 15px 70px;
-  text-align: center;
-}
-
-header .header-content .header-content-inner h1 {
-  margin-top: 0;
-  margin-bottom: 20px;
-}
-
-@media(min-width:768px) {
-  header {
-    min-height: 100%;
-  }
-}
-
-  header .header-content {
-    position: absolute;
-    top: 50%;
-    padding: 0 50px;
-
-  }
-
-  header .header-content .header-content-inner p {
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 80%;
-  }
-}
-
-.section-header {
-  margin-top: 0;
-  margin-bottom: 20px;
-
-}
-
-.intro {
-  color: #fff;
-  background-color: #3b245d;
-  padding: 70px 0;
-  text-align: center;
-}
-
-.content {
-  padding: 100px 0;
-}
-
-.content-2 {
-  color: #fff;
-  background-color: #222;
-}
-
-.content-3 {
-  padding: 20px 0 40px;
-  text-align: center;
-}
-
-.promo, .promo h3, .promo a:link, .promo a:visited, .promo a:hover, .promo a:active {
-  color: white;
-  text-shadow: 0px 0px 40px black;
   text-decoration: none;
 }
 
-.promo-item {
-  height: 200px;
-  text-align: center;
+a:hover {
+  border-bottom: 3px solid red;
+  background-color: orange;
 }
 
-.promo-item:hover {
-  background-size: 110%;
-  border: 10px solid rgba(255,255,255,0.3);
-}
-
-.promo-item h3 {
-  display: inline-block;
-  vertical-align: middle;
-}
-
-.item-1 {
-  background: url('../images/fluffycat.jpg');
-
-}
-
-.item-2 {
-  background: url('../images/graydog.jpg');
-}
-
-.item-3 {
-  background: url('../images/catdog.jpg');
-}
-
-.item-1, .item-2, .item-3 {
-  background-size: cover;
-  background-position: 50% 50%;
-}
-
-.contact {
-  background-color: #3b245d;
-  position: relative;
-  padding: 5px;
-  color: white;
-}
-
-.page-footer {
-  text-align: center;
-}
-
-.page-footer .contact {
-  padding: 100px 0;
-  background-color: #3b245d;
-  color: white;
-}
-
-
-.page-footer .small-print {
-  padding: 50px 0 40px;
-}
-
-.text-light {
-  color: rgba(255,255,255,.7);
-}
-
-.navbar-default {
-  border-color: rgba(34,34,34,.05);
-  background-color: #fff;
-}
-
-.navbard-default .navbar-header .navbar-brand {
-  color: orange;
-}
-
-.navbar-default, .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-  color: orange;
-}
-
-.navbard-default .nav > li>a, .navbar-default .nav>li>a:focus {
-  color: #222;
-}
-
-.navbar-default .nav >li >a:hover, .navbar-default .nav>li>a:focus:hover {
-  color: orange;
-}
-
-.navbar-default .nav > li.active>a, .navbar-default .nav>li.active>a:focus {
-  color: #3b245d!important;
-  background-color: transparent;
-}
-
-.navbar-default .nav > li.active>a:hover, .navbar-default .nav>li.active>a:focus:hover {
-  background-color: transparent;
-}
-
-@media(min-width:768px) {
-  .navbar-default {
-    border-color: rgba(255,255,255,.3);
-    background-color: transparent;
-  }
-
-  .navbar-default .navbar-header .navbar-brand {
-    color: rgba(255,255,255,.7);
-    letter-spacing: 0.5em;
-  }
-
-  .navbar-default .navbar-header .navbar-brand:hover, .navbar-default .navbar-header .navbar-brand:focus {
-    color: #fff;
-  }
-
-  .navbard-default.affix {
-    border-color: #fff;
-    background-color: #fff;
-    box-shadow: 0px 7px 20px 0px rgba(0,0,0,0.1);
-  }
-
-  .navbar-default.affix .navbar-header .navbar-brand {
-    letter-spacing: 0;
-    color: #3b245d;
-  }
-
-  .navbar-default.affix .nav > li>a, .navbar-default.affix .nav>li>a:focus {
-    color: #222;
-  }
-
-  .navbar-default.affix .nav > li>a:hover, .navbar-default.affix .nav>li>a:focus:hover {
-    color: #36cbd4;
-  }
-
-}
-
-.btn-default {
-  border-color: #fff;
-  color: #222;
-  background-color: #fff;
-  transition: all .35s;
-}
-
-.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-  border-color: #eee;
-  color: #222;
-  background-color: #eee;
-}
-
-.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-  background-image: none;
-}
-
-.btn-default .badge {
-  color: #fff;
-  background-color: #222;
-}
-
-.btn-primary {
-  border-color: #3b245d;
-  color: black;
-  background-color: pink;
-  transition: all .35s;
-}
-
-.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-  border-color: orange;
-  color: #fff;
-  background-color: #36cbd4;
-}
-
-.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
-  background-image: none;
-}
-
-.btn-primary .badge {
-  color: orange;
-  background-color: #fff;
+.current {
+  background-color: blue;
 }
 
 .btn {
-  border-radius: 300px;
+  color: white;
 }
 
-.btn-lg {
-  padding: 15px 30px;
+.btn-ghost {
+  color: orange;
+  border: 2px solid orange;
 }
 
-::selection {
-  text-shadow: none;
-  color: #fff;
-  background: #222;
+.btn:hover {
+  background-color: red;
 }
 
-.img::selection {
-  color: #fff;
-  background: 0,0
+.banner {
+  position: relative;
 }
 
-.text-primary {
-  color: #3b245d;
+.home-img {
+  position: relative;
+}
+
+.callout {
+  position: absolute;
+  z-index: 1;
+  left: 10%;
+  top: 47%;
+}
+
+.btn-callout {
+  background-color: pink;
+  border-radius: 8px;
+  border-style: none;
+}
+
+.btn-callout:hover {
+  background-color: white;
+}
+
+.callout p {
+  color: white;
+}
+
+.stories {
+  background-color: pink;
 }
