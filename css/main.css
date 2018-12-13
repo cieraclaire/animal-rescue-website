@@ -7,7 +7,7 @@ header, footer {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -17,7 +17,7 @@ a:hover {
 }
 
 .current {
-  background-color: blue;
+  background-color: pink;
 }
 
 .btn {
